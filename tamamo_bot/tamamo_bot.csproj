@@ -119,8 +119,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\GetInfoDialog.cs" />
     <Compile Include="Controllers\MessagesController.cs" />
-    <Compile Include="Controllers\WebAPIFormFlow.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -130,6 +130,7 @@
     <Content Include="packages.config" />
     <Content Include="readme.md" />
     <None Include="Properties\PublishProfiles\TamamoBot - Web Deploy.pubxml" />
+    <Content Include="spec.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
